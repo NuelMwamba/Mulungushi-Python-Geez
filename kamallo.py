@@ -1,6 +1,6 @@
 # Make a calculator that gets 2 inputs from the user 
 # the calculator that can multiply, add and find the modulas of the numbers 
-
+# This project was cloned by Nuel from kamallo repository on github
 
 import math
 
@@ -51,7 +51,7 @@ def get_number_input(adon):
         except ValueError:
             print("Invalid input. Please enter a valid number.")
 
-# History functions
+# History functions 
 def update_history(expression, result):
     if result is not None:
         history.append(f"{expression} = {result}")
